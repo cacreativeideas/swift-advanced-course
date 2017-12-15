@@ -8,6 +8,7 @@ class Person {
         self.firstName = firstName
         self.lastName = lastName
     }
+    
 }
 
 extension Person {
@@ -28,6 +29,7 @@ extension Person {
         
         self.init(firstName: firstName, lastName: lastName)
     }
+    
 }
 
 var person = Person(firstName: "Caroline", lastName: "Machado")
